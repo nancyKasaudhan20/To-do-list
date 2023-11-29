@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(249, 218, 178) ;
+}
+.container{
+    background-color: rgb(246, 209, 209);
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+input, textarea, button{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font : 100 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+}
+
+button{
+    background-color: rgb(61, 22, 22);
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+button:hover{
+    background-color: rgb(116, 15, 57);
+    transform: scale(1.05,1);
+    transition: all 0.5s;
+}
+.task{
+    background-color: rgb(241, 181, 239);
+    font: 100 1.1rem Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    color: rgb(53, 51, 51);
+    display: flex;
+    align-items: center;
+    margin: 2vmax ;
+}
+.task > div{
+    width: 100%;
+}
+.task span{
+    color: rgba(74, 71, 71, 0.682);
+}
+
+.dltBtn{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    outline: none;
+    border-color: transparent;
+}
